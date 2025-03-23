@@ -140,8 +140,9 @@ class _SearchScreenState extends State<SearchScreen> {
                                           crossAxisAlignment:
                                               CrossAxisAlignment.center,
                                           children: [
-                                            SizedBox(
-                                              width: 270,
+                                            Expanded(
+                                              flex: 7,
+                                              // width: 270,
                                               child: Text(
                                                 post.title,
                                                 style:
