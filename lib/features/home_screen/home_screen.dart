@@ -57,8 +57,8 @@ class _HomeScreenState extends State<HomeScreen> {
               borderRadius: BorderRadius.circular(60),
               child: Image.network(
                 "https://s3-alpha-sig.figma.com/img/38bd/1c9e/09eaeb6b34a4a9fd021736fc5695d8cb?Expires=1743379200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=c~gDN5uK-fMQqK0P5ApHERzPTdXBIWQtD8JQgzdLjfJGF7TZlI2LpSJxyhxbXO~Tq6UNz-907dLsz5Tp8yA7Xg8Yv3BVC4d1CcJqjJvE~-NAvP1j1k97j7gWQfspfMDWhPy3mjXRo9RGHj9pkiyIDn7hyHZUrlQF0lKMHN4ycLFAFnoG73IKsFF5KQTj6pACXJMsKh52hAD9ZKzNYAegGdCdDl2Sp6Cf9gaSbVOVUeIUR34Kxw3LPnVAbvlseylpR8es4NSg28f6IRMg0QnbIGwmbccPzfinG-ogW9AykfHQC8Fv9VvFeimOZ964Gej90GdWk8j9lGaemg~muZMmhA__",
-                width: 55,
-                height: 55,
+                width: 50,
+                height: 50,
                 fit: BoxFit.cover,
               ),
             ),

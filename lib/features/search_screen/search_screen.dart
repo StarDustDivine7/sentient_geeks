@@ -57,7 +57,7 @@ class _SearchScreenState extends State<SearchScreen> {
           backgroundColor: AppColors.whiteColor,
           surfaceTintColor: AppColors.whiteColor,
           centerTitle: true,
-          title: Text("Search", style: CustomTextStyle.montserratBold()),
+          title: Text("Search ", style: CustomTextStyle.montserratBold()),
         ),
         body: Column(
           children: [
@@ -89,7 +89,6 @@ class _SearchScreenState extends State<SearchScreen> {
                 ),
               ),
             ),
-
             Expanded(
               child: BlocBuilder<SearchBloc, SearchState>(
                 builder: (context, state) {
@@ -105,16 +104,6 @@ class _SearchScreenState extends State<SearchScreen> {
                           final post = state.searchResponse.posts[index];
                           final key = generateKey(post.title, post.body);
                           final isLiked = likedPostsBox.containsKey(key);
-                          // final key = "${post.title}_${post.body}";
-                          // final key = generateKey(post.title, post.body);
-                          // likedPostsBox.put(key, {
-                          //   'title': post.title,
-                          //   'body': post.body,
-                          // });
-                          // final isLiked = likedPostsBox.containsKey(
-                          //   generateKey(post.title, post.body),
-                          // );
-                          // final isLiked = likedPostsBox.containsKey(key);
                           return InkWell(
                             onTap: () {
                               showDialog(

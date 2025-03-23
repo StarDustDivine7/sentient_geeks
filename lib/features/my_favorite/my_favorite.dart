@@ -37,7 +37,7 @@ class _MyFavoriteState extends State<MyFavorite> {
         surfaceTintColor: AppColors.whiteColor,
         centerTitle: true,
         title: Text(
-          "Favorite",
+          "Favorite ",
           style: CustomTextStyle.montserratBold(fontSize: 18),
         ),
       ),
@@ -45,7 +45,7 @@ class _MyFavoriteState extends State<MyFavorite> {
           likedPosts.isEmpty
               ? Center(
                 child: Text(
-                  "No favorites yet",
+                  "No Favorites Yet",
                   style: CustomTextStyle.montserratBold(),
                 ),
               )

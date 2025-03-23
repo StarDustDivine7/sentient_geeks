@@ -21,7 +21,7 @@ class PopularImageComponent extends StatelessWidget {
         "image": "${ImageConstant.imagePath}/image 168.png",
         "name": "Andes Mountain",
         "location": "South, America",
-        "rating": "4.2",
+        "rating": "4.7",
       },
     ];
     return SizedBox(

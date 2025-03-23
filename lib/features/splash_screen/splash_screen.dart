@@ -99,7 +99,7 @@ class _SplashScreenState extends State<SplashScreen>
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             SizedBox(
-              height: 55,
+              height: 50,
               child: Stack(
                 alignment: Alignment.center,
                 children: [
