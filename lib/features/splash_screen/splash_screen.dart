@@ -15,7 +15,7 @@ class _SplashScreenState extends State<SplashScreen>
   late AnimationController _controller;
   late Animation<double> _positionAnimation;
   bool textVisible = false;
-  double maxTravelPosition = 200; // Assign a default value
+  double maxTravelPosition = 200;
 
   @override
   void initState() {
